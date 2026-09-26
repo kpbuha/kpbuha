@@ -60,9 +60,8 @@ static_assert(Understood<Shell>);   // built one. coroutines and all.
 | PID | STAT | COMMAND |
 |----:|:----:|:--------|
 | 1 | `R` | **SHeLL** — a POSIX shell in C++20: coroutine execution engine, job control, signals, termios handoff |
-| 2 | `R` | **mt-mastery** — working up from `std::thread` to lock-free MPMC queues and work-stealing pools |
-| 3 | `S` | **DSA** — 1,000+ problems deep, still blocked on `segment_tree` |
-| 4 | `Z` | that side project from 2021 <sub>(defunct, will not be reaped)</sub> |
+| 2 | `R` | **[hft-lab](https://github.com/kpbuha/hft-lab)** — matching engine + limit order book in C++20, price-time priority, cache-vs-pointer-chasing benchmarks; ITCH/FIX wire protocols and lock-free plumbing next |
+| 3 | `Z` | that side project from 2021 <sub>(defunct, will not be reaped)</sub> |
 
 ### ENVIRONMENT
 
