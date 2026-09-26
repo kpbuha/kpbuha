@@ -59,7 +59,7 @@ static_assert(Understood<Shell>);   // built one. coroutines and all.
 
 | PID | STAT | COMMAND |
 |----:|:----:|:--------|
-| 1 | `R` | **SHeLL** — a POSIX shell in C++20: coroutine execution engine, job control, signals, termios handoff |
+| 1 | `R` | **SHeLL** — a POSIX shell in C++20: coroutine execution engine, job control, signals, termios handoff <sub>(built with [@Charudatta999](https://github.com/Charudatta999))</sub> |
 | 2 | `R` | **[hft-lab](https://github.com/kpbuha/hft-lab)** — matching engine + limit order book in C++20, price-time priority, cache-vs-pointer-chasing benchmarks; ITCH/FIX wire protocols and lock-free plumbing next |
 
 ### ENVIRONMENT
