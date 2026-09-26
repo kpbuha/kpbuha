@@ -61,7 +61,6 @@ static_assert(Understood<Shell>);   // built one. coroutines and all.
 |----:|:----:|:--------|
 | 1 | `R` | **SHeLL** — a POSIX shell in C++20: coroutine execution engine, job control, signals, termios handoff |
 | 2 | `R` | **[hft-lab](https://github.com/kpbuha/hft-lab)** — matching engine + limit order book in C++20, price-time priority, cache-vs-pointer-chasing benchmarks; ITCH/FIX wire protocols and lock-free plumbing next |
-| 3 | `Z` | that side project from 2021 <sub>(defunct, will not be reaped)</sub> |
 
 ### ENVIRONMENT
 
@@ -71,17 +70,6 @@ CONCURRENCY = std::thread, condition_variable, atomics, memory_order, coroutines
 TOOLING = CMake, gdb, ThreadSanitizer, Helgrind, perf, git
 SYSTEMS = POSIX, signals, process groups, sockets, memory models
 ```
-
-### DIAGNOSTICS
-
-```
-$ ./build/bathroom_problem
-ThreadSanitizer: reported 0 warnings
-```
-
-<sub>It took four rewrites and one very real deadlock to earn that line. The first
-fairness fix introduced a circular wait — both groups waiting on a counter only
-the other could decrement. Fairness bugs are just deadlocks with good intentions.</sub>
 
 ### EXIT STATUS
 
